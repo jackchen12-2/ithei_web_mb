@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../views/lib/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../views/css/base.css">
+    <link rel="stylesheet" href="../views/css/index.css">
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <div class="header">
+        <!-- 邮箱 -->
+        <div class="mes">
+            <a href="javascript:;"><img src="../views/images/邮件.png" alt=""></a>
+        </div>
+        <!-- logo -->
+        <div class="logo"><img src="../views/images/headerLogo.png" alt=""></div>
+        <!-- 搜索 -->
+        <div class="seach"><a href="javascript:;"><span class="iconfont icon-sousuo1"></span></a></div>
+    </div>
+    <!-- banner图区域 -->
+    <div class="banner">
+        <ul>
+            <li><a href="javascript:;"><img src="../views/images/FE.png" alt=""></a></li>
+        </ul>
+    </div>
+    <!-- 就业课区域 -->
+    <div class="panel">
+        <div class="job">
+            <!-- 标题 -->
+            <div class="hd">
+                <h2><span class="left"></span>就 业 课<span class="right"></span></h2>
+            </div>
+            <!-- 内容 -->
+            <div class="bd">
+                <ul>
+                    <li>
+                        <a href="javascript:;"><img src="../views/images/fe-list.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="../views/images/java.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="../views/images/data.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="../views/images/python.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="../views/images/ui.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="../views/images/fe-list.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 微课区域 -->
+    <div class="panel">
+        <div class="tiny">
+            <div class="hd">
+                <h2><span class="left"></span>微 课<span class="right"></span></h2>
+            </div>
+            <div class="bd">
+                <ul id="render">
+                    <!-- <li><a href="javascript:;">
+                            <!-- 图片 -->
+                            <div class="pic"><img src="../views/images/ui.png" alt=""></div>
+                            <div class="title">
+                                <h3 id="h3">【前端】微信小程序</h3>
+                            </div>
+                            <div class="status">
+                                <p><span>20</span>人学习</p>
+                                <p>¥<span>199</span></p>
+                            </div>
+                        </a></li> -->
+                       
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="left"><span class="iconfont icon-31shouyexuanzhong"></span><span class="font">首页</span></div>
+        <div class="right">
+            <span class="iconfont icon-fenlei"></span>
+            <span class="font">分类</span></div>
+    </div>
+    <!-- template模板引擎 -->
+    <script type="text/html" id="tinyClass">
+        {{each data}}
+        <li><a href="javascript:;">
+            <!-- 图片 -->
+            <div class="pic"><img src={{$value.img}} alt=""></div>
+            <div class="title">
+                <h3 id="h3">{{$value.name}}</h3>
+            </div>
+            <div class="status">
+                <p><span>{{$value.count}}</span>人学习</p>
+                <p>¥<span>{{$value.price}}</span></p>
+            </div>
+        </a></li>
+        {{/each}}
+    </script>
+    <script src="../views/lib/jquery-3.6.0.min.js"></script>
+    <script src="../views/lib/template-web.js"></script>
+    <script src="../views/js/index.js"></script>
+</body>
+
+</html>

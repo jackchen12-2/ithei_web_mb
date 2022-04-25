@@ -1,0 +1,190 @@
+body {
+    background-color: #f1f1f1;
+    padding-bottom: 11.4667vw;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.panel {
+    background-color: #fff;
+    margin-bottom: 4.2667vw;
+}
+
+/* 头部区域 */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 17.0667vw;
+    padding: 0 4.8vw;
+    background-color: #446adf;
+}
+
+.header .mes {
+    width: 10.1333vw;
+    height: 10.1333vw;
+}
+
+.header .icon-sousuo1 {
+    font-size: 9.3333vw;
+    color: #fff;
+}
+
+/* banner图区域 */
+.banner {
+    margin-bottom: 4.2667vw;
+}
+
+.banner li {
+    width: 100%;
+    height: 45.3333vw;
+}
+
+/* 就业课区域 */
+.job {
+    background-color: #fff;
+}
+
+.job .hd,
+.tiny .hd {
+    height: 10.1333vw;
+    margin-bottom: 3.7333vw;
+}
+
+.job .hd h2,
+.tiny .hd h2 {
+    position: relative;
+    line-height: 10.1333vw;
+    text-align: center;
+    font-weight: 400;
+    font-size: 4.8vw;
+    color: #446adf;
+}
+
+.job .hd span,
+.tiny .hd span {
+    position: absolute;
+    display: inline-block;
+    width: 1.3333vw;
+    height: 1.3333vw;
+    border-radius: 1.3333vw;
+    background-color: #446adf;
+}
+
+ .hd .left {
+    left: 37.3333vw;
+    top: 4vw;
+}
+
+ .hd .right {
+    left: 61.3333vw;
+    top: 4vw;
+}
+
+.job .bd {
+    padding: 0 6.6667vw;
+}
+
+.job .bd ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+.job .bd li {
+    
+    width: 18.6667vw;
+    height: 18.6667vw;
+    margin-right: 3.2vw;
+    margin-bottom: 8.5333vw;
+    border-radius: 18.6667vw;
+
+}
+.job .bd li:nth-child(n+ 4) {
+    margin-bottom: 4.8vw;
+}
+.job .bd li img {
+    border-radius: 18.6667vw;
+}
+/* 微课区域 */
+.tiny {
+    background-color: #fff;
+}
+.tiny .bd {
+    padding: 0 1.6vw;
+}
+.tiny ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tiny li {
+    flex: 32%;
+}
+.tiny li:nth-child(2n + 1 ) {
+    margin-right: 2.1333vw;
+    margin-bottom: 4vw;
+}
+.tiny li .pic img {
+    width: 100%;
+    height: 26.6667vw;
+    border-radius: 5px;
+}
+.tiny .title h3 {
+    font-size: 4.2667vw;
+}
+.tiny .status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.3333vw;
+}
+.tiny .status p:first-child {
+    font-size: 3.7333vw;
+    color: #ccc;
+}
+.tiny .status p:last-child {
+    font-size: 4.2667vw;
+    color: #446adf;
+}
+/* 底部区域 */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 15.4667vw;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    padding: 0 10.6667vw;
+}
+.footer .iconfont {
+    color: #5bb5f5;
+   
+    font-size: 8.5333vw;
+}
+.footer .left,
+.footer .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer .font {
+    position: relative;
+    top: -2.1333vw;
+    font-size: 3.7333vw;
+    color: #5bb5f5;
+} 
+.footer .icon-fenlei {
+    font-size: 7.4667vw;
+}
+.right .font {
+    top: -1.3333vw;
+}
