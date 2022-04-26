@@ -1,0 +1,144 @@
+body {
+    padding-bottom:  15.4667vw;
+    padding-top:  21.3333vw;
+    background-color: #F1F1F1;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+/* 头部区域 */
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 17.6vw;
+    padding-left: 2.6667vw;
+    margin-bottom: 4.2667vw;
+    background-color: #fff;
+}
+.header .logo {
+    width: 28vw;
+    height: 9.3333vw;
+}
+
+.header .title h1 {
+    margin-left: 12vw;
+    color: #28ABFC;
+    font-size: 6.9333vw;
+}
+/* 内容区域 */
+/* 导航栏 */
+.main {
+    display: flex;
+    
+    width: 100%;
+}
+.main .nav {
+    /* position: absolute; */
+    /* top: 60px;
+    left: 0;
+    bottom: 0; */
+    /* height:  179.2vw; */
+    width: 25.8667vw;
+   background-color: #f5f5f5;
+}
+.main .nav li {
+    height: 14.9333vw;
+    line-height: 14.9333vw;
+    text-align: center;
+    color: #333;
+    font-size: 4.2667vw;
+}
+.main .nav li.active {
+    border-left: 2px solid rgb(5, 183, 252);
+    background-color: #fff;
+}
+/* 内容区 */
+.main .content {
+    min-height: 179vw;
+    flex: 1;
+    background-color: #fff;
+}
+.main .content .hd {
+    width: 100%;
+    height: 11.2vw;
+    padding-left: 4.5333vw;
+    line-height: 11.2vw;
+    color: #28ABFC;
+    font-size: 4.8vw;
+}
+.main .content .pic { 
+    height: 22.9333vw;
+    background-color: pink;
+    margin-left: 4.5333vw;
+    margin-right: 1.3333vw;
+    border-radius: 2.1333vw;
+    background: url(../images/web_fe.png) no-repeat;
+    line-height: 22.9333vw;
+    text-align: center;
+    color: #fff;
+    font-size: 4.8vw;
+}
+.main .content .improve {
+    font-weight: 700;
+    margin-bottom: 2.1333vw;
+}
+.main .class {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5.8667vw;
+    
+}
+.main .class span {
+    margin-right: 2.6667vw;
+    padding: 2.9333vw 4.2667vw;
+    margin-bottom: 5.3333vw;
+    text-align: center;
+    box-sizing: content-box;
+    border-radius: 1.3333vw;
+    border: 1px solid #ccc;
+    color: #c0c0c0;
+    font-size: 3.7333vw;
+}
+
+/* 底部区域 */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 15.4667vw;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    padding: 0 10.6667vw;
+}
+.footer .iconfont {
+    color: #5bb5f5;
+   
+    font-size: 8.5333vw;
+}
+.footer .left,
+.footer .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer .font {
+    position: relative;
+    top: -2.1333vw;
+    font-size: 3.7333vw;
+    color: #5bb5f5;
+} 
+.footer .icon-fenlei {
+    font-size: 7.4667vw;
+}
+.right .font {
+    top: -1.3333vw;
+}

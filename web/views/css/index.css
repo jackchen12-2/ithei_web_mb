@@ -1,6 +1,7 @@
 body {
-    background-color: #f1f1f1;
+    padding-top:  17.0667vw;
     padding-bottom: 11.4667vw;
+    background-color: #f1f1f1;
 }
 
 img {
@@ -17,6 +18,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
     width: 100%;
     height: 17.0667vw;
     padding: 0 4.8vw;
@@ -161,6 +166,7 @@ img {
     height: 15.4667vw;
     left: 0;
     bottom: 0;
+    z-index: 2;
     background-color: #fff;
     padding: 0 10.6667vw;
 }

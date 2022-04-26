@@ -8,7 +8,7 @@ const router = require('./router/router.js');
 app.use(cors());
 // 注册路由模块，让路由模块中的代码能够使用
 app.use(router)
-app.use('/images', express.static('images')) // => /images 为虚拟目录
+app.use('/images', express.static('./images')) // => /images 为虚拟目录
 app.listen(3001, () => {
     console.log('runing http://127.0.0.1:3001');
 })

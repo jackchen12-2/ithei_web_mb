@@ -4,14 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            background-color: pink;
-        }
-    </style>
+    <title>课程分类</title>
+    <link rel="stylesheet" href="../favicon.ico">
+    <link rel="stylesheet" href="../views/lib/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../views/css/base.css">
+    <link rel="stylesheet" href="../views/css/category.css">
 </head>
 <body>
-    
+    <!-- 头部区域 -->
+    <div class="header">
+        <div class="logo"><a href="javascript:;"><img src="../views/images/logo.png" alt=""></a></div>
+        <div class="title"><h1>课程分类</h1></div>
+    </div>
+    <!-- 内容区域 -->
+    <div class="main">
+        <!-- 左侧导航栏 -->
+        <div class="nav">
+            <ul>
+                <li class="active"><a href="javascript:;">前端</a></li>
+                <li><a href="javascript:;">微信小程序</a></li>
+                <li><a href="javascript:;">Vue.js</a></li>
+                <li><a href="javascript:;">移动web开发</a></li>
+                <li><a href="javascript:;">bootstrap</a></li>
+                <li><a href="javascript:;">Node.js</a></li>
+            </ul>
+        </div>
+        <!-- 右侧内容区 -->
+        <div class="content">
+            <ul>
+                <li >
+                    <div class="hd">就业班</div>
+                    <div class="pic">web前端在线就业班</div>
+                    <div class="hd improve">提高课</div>
+                    <div class="class">
+                        <span>微信小程序</span>
+                        <span>深入探索js</span>
+                        <span>node.js</span>
+                        <span>bootstrap</span>
+                        <span>vue.js</span>
+                        <span>微信小程序</span>
+                        <span>深入探索js</span>
+                        <span>node.js</span>
+                        <span>bootstrap</span>
+                        <span>vue.js</span>
+                        <span>微信小程序</span>
+                        <span>深入探索js</span>
+                        <span>node.js</span>
+                        <span>bootstrap</span>
+                        <span>vue.js</span>
+                        <span>微信小程序</span>
+                        <span>深入探索js</span>
+                        <span>node.js</span>
+                    </div>
+                </li>
+                <li hidden>微信小程序</li>
+                <li hidden>Vue.js</li>
+                <li hidden>移动web开发</li>
+                <li hidden>bootstrap</li>
+                <li hidden>Node.js</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部区域 固定定位 -->
+    <div class="footer">
+        <div class="left"><span class="iconfont icon-31shouye"></span><span class="font">首页</span></div>
+        <div class="right">
+            <span class="iconfont icon-yingyong"></span>
+            <span class="font">分类</span></div>
+    </div>
+    <script src="../views/lib/jquery-3.6.0.min.js"></script>
+    <script src="../views/lib/template-web.js"></script>
+    <script src="../views/js/category.js"></script>
 </body>
 </html>
